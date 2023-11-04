@@ -1,0 +1,94 @@
+.library {
+  background-color: rgb(11, 12, 15);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: -2;
+}
+
+.library-top {
+  max-width: 996px;
+  text-align: center;
+  margin-top: 0px;
+}
+.title {
+  padding-top: 88px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #1ce783;
+}
+.subtitle {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  margin: 16px 0 10px;
+}
+.desc {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.32;
+  letter-spacing: 0px;
+  max-width: 792px;
+  margin: 0px auto;
+  padding-top: 16px;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+
+.library-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.library-item {
+  border-left: 4px solid hwb(0 100% 0% / 0);
+  border-right: 4px solid hwb(0 100% 0% / 0);
+  border-radius: 10px;
+  background: linear-gradient(
+      156.82deg,
+      rgba(0, 0, 0, 0.6) 4.58%,
+      transparent 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, transparent 71.49%);
+  text-align: left;
+  position: relative;
+  color: white;
+}
+.item-image img {
+  padding: 0, 8, 0, 8;
+  position: relative;
+  text-align: center;
+
+  width: 295px;
+
+  border-radius: 10px;
+  z-index: -1;
+}
+.item-sub {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.36;
+  letter-spacing: 0;
+}
+.item-title {
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.24;
+  letter-spacing: 0;
+}
+.relative-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px;
+}
