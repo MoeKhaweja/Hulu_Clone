@@ -1,8 +1,114 @@
 .header {
   min-height: 660px;
-  background-color: aqua;
+  width: 100%;
+  background-image: linear-gradient(
+    0deg,
+    transparent 60%,
+    rgba(0, 0, 0, 0.2) 90%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  background: url(./Assets/hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
+}
+.nav-bar {
+  width: 100%;
+  height: 74px;
+  display: inline;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  height: 100%;
+  width: 61px;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.login {
+  margin-right: 40px;
+}
+
+.hero {
+  min-height: 586px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
   justify-content: center;
+  align-items: center;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  width: 670px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 319px;
+}
+
+.offer-title > h2 {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+}
+.offer-images {
+  width: 60%;
+}
+.offer-image2 {
+  width: 90%;
+}
+
+.offer-price {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.24;
+  text-transform: none;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.offer-button {
+  margin-top: 1.6em;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  min-width: 64px;
+  background-color: rgb(28, 231, 131);
+  padding: 0px 24px;
+  height: 40px;
+}
+.offer-button:hover {
+  background-color: rgba(28, 231, 131, 0.8);
+  opacity: 0.8;
 }
