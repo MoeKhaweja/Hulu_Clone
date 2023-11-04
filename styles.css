@@ -2,12 +2,13 @@
   min-height: 660px;
   width: 100%;
   background-image: linear-gradient(
-    0deg,
-    transparent 60%,
-    rgba(0, 0, 0, 0.2) 90%,
-    rgba(0, 0, 0, 0.4) 100%
-  );
-  background: url(./Assets/hero-desktop.jpg);
+      0deg,
+      transparent 60%,
+      rgba(0, 0, 0, 0.2) 90%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("./Assets/hero-desktop.jpg"), url(./Assets/hero-desktop.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -31,11 +32,29 @@
   height: 100%;
   width: 61px;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 40px;
 }
 
-.login {
+.login > button {
+  color: #a8afbd;
   margin-right: 40px;
+  padding: 0px 16px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.login button:hover {
+  color: white;
+  background-color: #323843;
 }
 
 .hero {
@@ -59,11 +78,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   max-width: 319px;
 }
 
 .offer-title > h2 {
+  color: #1ce783;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.6px;
@@ -85,6 +105,7 @@
 }
 
 .offer-price {
+  color: white;
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 0;
@@ -111,4 +132,22 @@
 .offer-button:hover {
   background-color: rgba(28, 231, 131, 0.8);
   opacity: 0.8;
+}
+
+.terms {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms-apply {
+  font-size: 14px;
+  color: white;
+}
+
+.terms-signup {
+  font-size: 16px;
+  color: white;
 }
