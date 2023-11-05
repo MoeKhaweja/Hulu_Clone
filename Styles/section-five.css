@@ -1,0 +1,236 @@
+.select-plan {
+  background-color: #0b0c0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans-container {
+  width: 976px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.plans-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+}
+.switch-content-desc {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.32;
+  text-transform: none;
+}
+.plans-switch {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+  background-color: #0b0c0f;
+}
+.plans-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 215px;
+  padding: 15px 0 10px;
+}
+.plans-right {
+  gap: 15px;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  padding: 0;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 31px;
+  border-top: none;
+  height: 215px;
+}
+
+.toggle-row {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.toggle-row span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+.toggle-center label {
+  display: flex;
+  -webkit-align-items: center;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  height: 30px;
+  border-radius: 50px;
+  position: relative;
+
+  width: 56px;
+  background: #424957;
+}
+
+.toggle-center span {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.toggle-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.toggle-image-left {
+  margin-top: 18px;
+}
+.toggle-image-left img {
+  width: 35px;
+}
+.toggle-image-right img {
+  width: 160px;
+}
+
+.plans-right span {
+  padding: 10.5px 27px;
+  font-size: 9px;
+  color: #0b0c0f;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  border-radius: 100px;
+
+  background: rgb(4, 205, 106);
+  height: 33px;
+}
+.plans-right h2 {
+  color: #bec0c2;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding-top: 25px;
+  margin-bottom: 5px;
+}
+.plans-right h3 {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-bottom: 13px;
+}
+
+.plans-right button {
+  width: 100%;
+  border-radius: 4px;
+  padding: 0 33px;
+  height: 48px;
+  margin: 6px auto 0;
+  max-width: 344px;
+}
+.plans-right button:hover {
+  opacity: 0.8;
+}
+
+.plans-rr {
+  flex-grow: 1;
+}
+.plans-rl {
+  flex-grow: 1;
+}
+
+.plans-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content-row {
+  height: 80px;
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.36;
+  letter-spacing: 0;
+  border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+}
+.col-1 {
+  width: 40%;
+  text-align: left;
+}
+.col-2 {
+  width: 30%;
+  text-align: center;
+}
+
+.col-3 {
+  width: 30%;
+  text-align: center;
+}
+
+.content-row img {
+  height: 16px;
+}
+
+.disclaimer-row {
+  margin-top: 12px;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46;
+  text-transform: none;
+  padding-bottom: 60px;
+  border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+}
+
+.addons-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+  margin-bottom: 40px;
+}
+.addons-row img {
+  padding-left: 8px;
+  width: 26px;
+}
