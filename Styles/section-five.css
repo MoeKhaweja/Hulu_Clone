@@ -21,6 +21,9 @@
   padding-bottom: 40px;
   border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
 }
+.plans-top p {
+  font-family: "Graphik-Regular";
+}
 .switch-content-desc {
   font-size: 18px;
   font-weight: 400;
@@ -115,6 +118,7 @@
 }
 
 .toggle-image-left {
+  text-align: center;
   margin-top: 18px;
 }
 .toggle-image-left img {

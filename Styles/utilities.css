@@ -1,6 +1,10 @@
 @font-face {
   font-family: Graphik;
-  src: url(./Assets/Graphik-Medium.ttf);
+  src: url(../Assets/Graphik-Medium.ttf);
+}
+@font-face {
+  font-family: Graphik-Regular;
+  src: url(../Assets/Graphik-Regular.ttf);
 }
 
 * {
